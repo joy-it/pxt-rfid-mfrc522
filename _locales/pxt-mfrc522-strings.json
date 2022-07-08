@@ -1,0 +1,8 @@
+{
+  "MFRC522.AntennaOff|block": "Turn off antenna",
+  "MFRC522.Init|block": "Initialize MFRC522 Module",
+  "MFRC522.getID|block": "Read ID",
+  "MFRC522.read|block": "Read data",
+  "MFRC522.write|block": "Write Data %text",
+  "{id:category}MFRC522": "MFRC522"
+}

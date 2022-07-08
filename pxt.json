@@ -1,0 +1,25 @@
+{
+    "name": "pxt-mfrc522",
+    "version": "1.0.0",
+    "description": "MakeCode package for the MFRC522 RFID module.",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "MFRC522.ts",
+        "_locales/de/pxt-mfrc522-jsdoc-strings.json",
+        "_locales/de/pxt-mfrc522-strings.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.0.11",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
