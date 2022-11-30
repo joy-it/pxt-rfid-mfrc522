@@ -1,6 +1,6 @@
 # MakeCode Package for the Joy-IT SBC-RFID-RC522 RFID module (MFRC522).
 
-This library provides a Microsoft Makecode package for the Joy-IT RB-TFT1.8 ST7735 module.
+This library provides a Microsoft Makecode package for the Joy-IT SBC-RFID-RC522 RFID module.
 See https://joy-it.net/products/SBC-RFID-RC522 for more details.
 
 ## Connection
