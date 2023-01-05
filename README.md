@@ -5,7 +5,7 @@ See https://joy-it.net/products/SBC-RFID-RC522 for more details.
 
 ## Connection
 
-The display needs to be connected with six pins to the Micro:bit:
+The RFID module needs to be connected with six pins to the Micro:bit:
 
 | RFID module   | Micro:bit     |
 | ------------- |:-------------:|
@@ -16,7 +16,7 @@ The display needs to be connected with six pins to the Micro:bit:
 | SCK           | P13           |
 | NSS           | P16           |
 
-## Initialize display
+## Initialize RFID module
 
 The RFID module needs to be initialized before it is ready to use. All necessary commands will be transfered via SPI here.
 
