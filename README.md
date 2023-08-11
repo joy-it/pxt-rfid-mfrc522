@@ -50,7 +50,7 @@ MFRC522.write("1234")
 ```
 
 ## Turn off antenna
-After use, the antenn can be turned off.
+After use, the antenna can be turned off.
 
 ```typescript
 // Turn antenna off

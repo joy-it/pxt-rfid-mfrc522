@@ -488,7 +488,7 @@ namespace MFRC522 {
   }
 
   /*
-   * TUrn off antenna
+   * Turn off antenna
    */
   //% block="Turn off antenna"
   //% text
