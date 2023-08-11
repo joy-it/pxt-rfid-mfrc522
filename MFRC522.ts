@@ -410,11 +410,11 @@ namespace MFRC522 {
         return getIDNum(uid)
     }
 
-    /*
-     * Initial setup
-     */
-    //% block="Initialize MFRC522 Module"
-    //% weight=100
+   /*
+    * Initial setup
+    */
+   //% block="Initialize MFRC522 Module"
+   //% weight=100
    export function Init() {
        pins.spiPins(DigitalPin.P15, DigitalPin.P14, DigitalPin.P13)
        pins.spiFormat(8, 0)
@@ -448,11 +448,11 @@ namespace MFRC522 {
        return id
    }
 
-    /*
-     * Function to read Data from card
-     */
-    //% block="Read data"
-    //% weight=90
+   /*
+    * Function to read Data from card
+    */
+   //% block="Read data"
+   //% weight=90
    export function read():string {
        let text = readFromCard()
        while (!text) {
@@ -468,12 +468,12 @@ namespace MFRC522 {
 
 
 
-   /*
-    * Function to write Data
-    */
-   //% block="Write Data %text"
-   //% text
-   //% weight=85
+  /*
+   * Function to write Data
+   */
+  //% block="Write Data %text"
+  //% text
+  //% weight=85
   export function write (text: string) {
       let id = writeToCard(text)
 
@@ -488,7 +488,7 @@ namespace MFRC522 {
   }
 
   /*
-   * TUrn off antenna
+   * Turn off antenna
    */
   //% block="Turn off antenna"
   //% text
