@@ -413,7 +413,7 @@ namespace MFRC522 {
     /*
      * Initial setup
      */
-    //% block="Initialize MFRC522 Module"
+    //% block="mfrc522 initialize"
     //% weight=100
    export function Init() {
        pins.spiPins(DigitalPin.P15, DigitalPin.P14, DigitalPin.P13)
@@ -435,7 +435,7 @@ namespace MFRC522 {
    /*
     * Function to read ID from card
     */
-   //% block="Read ID"
+   //% block="mfrc522 read id"
    //% weight=95
    export function getID() {
        let id = readID()
@@ -451,7 +451,7 @@ namespace MFRC522 {
     /*
      * Function to read Data from card
      */
-    //% block="Read data"
+    //% block="mfrc522 read"
     //% weight=90
    export function read():string {
        let text = readFromCard()
@@ -471,7 +471,7 @@ namespace MFRC522 {
    /*
     * Function to write Data
     */
-   //% block="Write Data %text"
+   //% block="mfrc522 write %text"
    //% text
    //% weight=85
   export function write (text: string) {
@@ -490,8 +490,7 @@ namespace MFRC522 {
   /*
    * TUrn off antenna
    */
-  //% block="Turn off antenna"
-  //% text
+  //% block="mfrc522 antenna off"
   //% weight=80
   export function AntennaOff () {
       ClearBits(TxControlReg, 0x03)
